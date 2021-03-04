@@ -18,3 +18,4 @@ for index, mass in enumerate(mass_list):
   gravity_list.append(gravity) 
 df["gravity"] = gravity_list
 print(df)
+df.to_csv("gravity_data.csv")
